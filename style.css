@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.half-width{
+    float: left;
+    width: 35%;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 80px;
+}
+p{
+    color: gray; 
+}
+.profile-image{
+    width: 100%;
+}
+h1{
+    color:rgb(116, 61, 217);
+    font-weight: bold;  
+    font-size: 45px;
+}
+.button{
+    text-decoration: none;
+    padding: 10px;
+    background-color:rgb(116, 61, 217);
+    color:white;
+    border-radius: 3px;
+}
+.button:hover{
+    background-color:rgb(99, 30, 226);
+    box-shadow: 10px 10px 40px rgb(116, 61, 217);;
+}
+.header-section{
+    background-image: url("images/header-bg.png");
+    height: 750px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biography-section{
+    background-image: url("images/biography-bg.png");
+    height: 750px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.latest-work-image{
+    float: left;
+    width: 20%;
+    padding-left: 10%;
+}
+.latest-work-section{
+    background-image: url("images/latest-work-bg.png");
+    height: 750px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.comments{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.message-box{
+    background-color: rgb(116, 61, 217);
+    width: 500px;
+    margin:auto;
+    border-radius: 5px;
+    padding:10px;
+
+}
+.message-to {
+    text-align: center;
+    color:white;
+}
+.footer-section{
+    background-image: url("images/footer-bg.png");
+    height: 750px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+footer p {
+    text-align: center;
+}
